@@ -54,6 +54,7 @@ query($id : ID!, $cursor : String){
               edges {
                 node {
                   title
+                  id
                   image {
                     altText
                     id
