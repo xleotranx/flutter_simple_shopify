@@ -54,6 +54,7 @@ query($id : ID!, $cursor : String, $limit : Int, $sortKey : ProductCollectionSor
               edges {
                 node {
                   title
+                  id
                   image {
                     altText
                     id
